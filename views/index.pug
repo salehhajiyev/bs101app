@@ -2,7 +2,7 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Xoş Gəlmisiniz! #{title}
   script.
     var f1 = function() { document.getElementById('myImage').src='#{data.item1}' }
   script.
@@ -10,8 +10,8 @@ block content
   script.
     var f3 = function() { document.getElementById('myImage').src='#{data.item3}' }
 
-  button(onclick='f1()') One!
-  button(onclick='f2()') Two!
-  button(onclick='f3()') Three!
+  button(onclick='f1()') Bir !
+  button(onclick='f2()') İki !
+  button(onclick='f3()') Dörd !
   p
   a: img(id='myImage' height='300' width='300' src='')
